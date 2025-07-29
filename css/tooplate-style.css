@@ -31,7 +31,11 @@ h1 {
   background-repeat: no-repeat;
   z-index: -1;
   transition: all 0.3s ease;
+  border: #fedc00;
+  border-style: solid;
+  padding-bottom: 30px !important;
 }
+
 
 #tm-bg2{
   position: fixed;
