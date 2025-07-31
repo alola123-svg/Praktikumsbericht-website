@@ -167,8 +167,11 @@ p {
   max-width: 700px;
 }
 .grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  /* 3 Spalten zu je 1fr */
+  grid-template-columns: repeat(3, 1fr);
+  /* Abstand zwischen den Items */
+  gap: 1.5rem;
 }
 .grid__item {
   margin: 20px;
